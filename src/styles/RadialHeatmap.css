@@ -1,3 +1,7 @@
 .radial-heatmap circle {
   fill: none;
 }
+
+.radial-heatmap circle.highlight {
+  stroke: #FA7F9F;
+}

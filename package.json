@@ -10,9 +10,9 @@
   "mainInput": "LinkedHighlightingApp",
   "mainOutput": "main",
   "dependencies": {
-    "reflux": "^0.2.7",
-    "react": "~0.12.2",
-    "normalize.css": "~3.0.3"
+    "normalize.css": "~3.0.3",
+    "react": "^0.13.2",
+    "reflux": "^0.2.7"
   },
   "devDependencies": {
     "babel": "^4.0.0",

@@ -3,3 +3,9 @@
   stroke: #5357a1;
   stroke-width: 2px;
 }
+
+.line-chart .highlight-mark {
+  fill: #FA7F9F;
+  stroke: #891836;
+  stroke-width: 1px;
+}

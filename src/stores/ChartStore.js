@@ -4,9 +4,17 @@ import ChartActions from '../actions/ChartActions';
 const ChartStore = Reflux.createStore({
   listenables: ChartActions,
 
-  // broadcast the point upon receiving the highlight action
+  // store the newly highlighted point and broadcast the change
   onHighlight(point) {
-    this.trigger({ highlight: point });
+    this.highlight = point;
+    this.update();
+  },
+
+  // broadcast the currently highlighted point
+  update() {
+    this.trigger({
+      highlight: this.highlight
+    });
   }
 });
 

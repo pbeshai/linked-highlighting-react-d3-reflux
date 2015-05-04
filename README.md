@@ -6,6 +6,8 @@ was generated using [Yeoman](http://yeoman.io/)'s [react-webpack generator](http
 A line chart and a radial heatmap are drawn, rendering the same set of data. When the user mouses over either chart,
 highlighting marks are drawn on both charts.
 
+**Blog Post**: https://medium.com/@pbesh/linked-highlighting-with-react-d3-js-and-reflux-16e9c0b2210b
+
 **Demo**: http://pbeshai.github.io/linked-highlighting-react-d3-reflux/
 
 ![Charts with no highlighting](img/chart.png)

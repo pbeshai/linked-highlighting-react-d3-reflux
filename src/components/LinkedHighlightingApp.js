@@ -21,9 +21,7 @@ const LinkedHighlightingApp = React.createClass({
       data.push({ distance: i, value: Math.random() * 10 + i });
     }
 
-    return {
-      data: data
-    };
+    return { data };
   },
 
   componentDidMount() {
